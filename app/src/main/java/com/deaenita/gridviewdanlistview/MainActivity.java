@@ -12,11 +12,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+// pindah Activity 1
     public void Pindah(View view) {
         Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
         startActivity(intent);
     }
+// pindah Activity 1
 
     public void Pindah2(View view) {
         Intent intent = new Intent(MainActivity.this, GridViewActivity.class);
